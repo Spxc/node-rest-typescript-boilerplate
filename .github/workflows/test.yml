@@ -22,8 +22,8 @@ jobs:
 
       - name: Set up environment variables
         run: |
-          echo "TWITTER_CLIENT=app_client" >> .env
-          echo "TWITTER_SECRET=app_secret" >> .env
+          echo "PORT=4500" >> .env
+          echo "JWT_SECRET=jwt_secret" >> .env
 
       - name: Run lint tests
         run: pnpm npm run lint --if-present

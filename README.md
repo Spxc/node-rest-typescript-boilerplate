@@ -1,5 +1,6 @@
 # Node 20 typescript boilerplate
-Simple boilerplate for using `typescript` with `node20`
+Fork of [`node-typescript-boilerplate`](https://github.com/Spxc/node-typescript-boilerplate)
+Simple boilerplate for using `typescript` with `node20`, includes `express` router and `jwt` auth
 
 ## Features
 - Env checks with `zod` on boot
@@ -7,6 +8,8 @@ Simple boilerplate for using `typescript` with `node20`
 - Target `es2017`
 - Folder target paths ie: `@config`
 - Github actions for testing
+- Dynamic express routes
+- Authentication of the box
 
 ## Status
 [![Tests](https://github.com/Spxc/node-typescript-boilerplate/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Spxc/node-typescript-boilerplate/actions/workflows/test.yml)

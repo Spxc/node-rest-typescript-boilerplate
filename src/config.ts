@@ -9,7 +9,8 @@ export enum NodeEnv {
 
 const configSchema = z.object({
   NODE_ENV: z.nativeEnum(NodeEnv).default(NodeEnv.PROD),
-  PORT: z.string().default("8080")
+  PORT: z.string().default("8080"),
+  JWT_SECRET: z.string()
 });
 
 export const appConfig = configSchema.parse(process.env);

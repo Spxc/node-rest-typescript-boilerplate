@@ -1,0 +1,26 @@
+{
+    "ts-node": {
+      "require": ["tsconfig-paths/register"]
+    },
+    "compilerOptions": {
+      "outDir": "./dist",
+      "target": "es2017",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "rootDir": "./src",
+      "baseUrl": "./",
+      "strict": true,
+      "skipLibCheck": true,
+      "paths": {
+        "@config": ["src/config.ts"],
+        "@models/*": ["src/models/*"],
+        "@packages/*": ["src/packages/*"],
+        "@services/*": ["src/services/*"],
+        "@utils/*": ["src/utils/*"],
+      }
+    },
+    "include": ["src/**/*.ts", "src/__test__/*.ts*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

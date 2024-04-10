@@ -3,13 +3,14 @@ Fork of [`node-typescript-boilerplate`](https://github.com/Spxc/node-typescript-
 Simple boilerplate for using `typescript` with `node20`, includes `express` router and `jwt` auth
 
 ## Features
+- `pnpm` for faster package handeling
 - Env checks with `zod` on boot
 - Nodemon for `pnpm dev`
 - Target `es2017`
 - Folder target paths ie: `@config`
 - Github actions for testing
 - Dynamic express routes
-- Authentication of the box
+- Authentication out of the box
 
 ## Status
 [![Tests](https://github.com/Spxc/node-typescript-boilerplate/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Spxc/node-typescript-boilerplate/actions/workflows/test.yml)
